@@ -1,0 +1,31 @@
+# .gitignore
+
+# Ignore node modules
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore Docker-related files
+**/Dockerfile
+**/docker-compose.yml
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore SSL certificates (for security)
+C:\Windows\nginxCerts/*.crt
+C:\Windows\nginxCerts/*.key
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
